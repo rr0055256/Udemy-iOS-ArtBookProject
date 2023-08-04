@@ -21,6 +21,10 @@ class DetailsVc: UIViewController,UIImagePickerControllerDelegate,UINavigationCo
     
     @IBOutlet weak var yearTextField: UITextField!
     
+    @IBOutlet weak var saveButton: UIButton!
+    
+    var chosenName = ""
+    var chosenUuid : UUID?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,7 +35,57 @@ class DetailsVc: UIViewController,UIImagePickerControllerDelegate,UINavigationCo
         uiImageView.isUserInteractionEnabled = true
         
         let imageGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(openImagePicker))
-        view.addGestureRecognizer(imageGestureRecognizer)
+        uiImageView.addGestureRecognizer(imageGestureRecognizer)
+        
+        if chosenName != "" {
+            //fetch from coredata
+            saveButton.isHidden = true
+            
+            let appDelegate = UIApplication.shared.delegate as! AppDelegate
+            let context = appDelegate.persistentContainer.viewContext
+            
+            let idString = chosenUuid?.uuidString
+            
+            let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Paintings")
+            
+            let predicate = NSPredicate(format: "id = %@", idString!)
+            
+            fetchRequest.predicate = predicate
+            
+            fetchRequest.returnsObjectsAsFaults = false
+            
+            do{
+                let results = try context.fetch(fetchRequest)
+                
+                if results.count > 0 {
+                    for result in results as! [NSManagedObject] {
+                        if let name = result.value(forKey: "name") as? String {
+                            nameTextField.text = name
+                        }
+                        
+                        if let artist = result.value(forKey: "artist") as? String {
+                            artistTextField.text = artist
+                        }
+                        
+                        if let year = result.value(forKey: "year") as? Int {
+                            yearTextField.text = String(year)
+                        }
+                        
+                        if let imageData = result.value(forKey: "image") as? Data {
+                            uiImageView.image = UIImage(data: imageData)
+                        }
+                    }
+                }
+            }catch{
+                print("Error")
+            }
+        }else{
+            nameTextField.text = ""
+            artistTextField.text = ""
+            yearTextField.text = ""
+            saveButton.isHidden = false
+            saveButton.isEnabled = false
+        }
         
     }
     
@@ -47,6 +101,7 @@ class DetailsVc: UIViewController,UIImagePickerControllerDelegate,UINavigationCo
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         uiImageView.image = info[.originalImage] as? UIImage
         self.dismiss(animated: true)
+        saveButton.isEnabled = true
     }
     
     @objc func dismissKeyboard(){
@@ -62,8 +117,29 @@ class DetailsVc: UIViewController,UIImagePickerControllerDelegate,UINavigationCo
         
         //attributes
         
-        newPainting.setValue(nameTextField.text, forKey: "name")
-        newPainting.set
+        newPainting.setValue(nameTextField.text!, forKey: "name")
+        newPainting.setValue(artistTextField.text!, forKey: "artist")
+        
+        if let year = Int(yearTextField.text!) {
+            newPainting.setValue(year, forKey: "year")
+        }
+        
+        newPainting.setValue(UUID(), forKey: "id")
+        
+        let data = uiImageView.image!.jpegData(compressionQuality: 0.5)
+        
+        newPainting.setValue(data, forKey: "image")
+        
+        do {
+            try context.save()
+            print("Success")
+        }catch {
+            print("Error")
+        }
+        
+        
+        NotificationCenter.default.post(name: NSNotification.Name("newData"), object: nil)
+        self.navigationController?.popViewController(animated: true)
     }
     
 }

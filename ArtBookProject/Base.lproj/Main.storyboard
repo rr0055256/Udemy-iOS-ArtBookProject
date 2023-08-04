@@ -32,6 +32,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="UY9-im-kYR"/>
                     <connections>
+                        <outlet property="tableView" destination="3f6-Ya-oEz" id="fcq-Cu-Fn3"/>
                         <segue destination="QgY-Lk-alV" kind="show" identifier="toDetailsVC" id="p8l-2r-yvQ"/>
                     </connections>
                 </viewController>
@@ -110,6 +111,7 @@
                     <connections>
                         <outlet property="artistTextField" destination="83N-a3-KbI" id="iGd-3j-Tei"/>
                         <outlet property="nameTextField" destination="wc7-4Z-u1Z" id="42N-Ch-jNH"/>
+                        <outlet property="saveButton" destination="CbL-h5-0ZR" id="ZiD-8K-xB9"/>
                         <outlet property="uiImageView" destination="5Qo-Uu-Mq9" id="NVk-e1-uai"/>
                         <outlet property="yearTextField" destination="R3r-yp-sJg" id="xF3-Ql-yBx"/>
                     </connections>

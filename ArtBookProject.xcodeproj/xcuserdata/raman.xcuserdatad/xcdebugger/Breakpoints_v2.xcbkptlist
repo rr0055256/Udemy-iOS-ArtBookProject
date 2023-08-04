@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FE3136F1-9D30-4ADA-9CE3-D6ACD1F850CE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "68A5D97C-3CD1-4487-B55B-2DD6B5129F97"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ArtBookProject/DetailsVc.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "saveButtonClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D4EB577F-12F9-4E09-9062-29FB92A5A2EE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ArtBookProject/DetailsVc.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "saveButtonClicked(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D4EB577F-12F9-4E09-9062-29FB92A5A2EE - 1e35b09f112b28fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ArtBookProject.DetailsVc.saveButtonClicked(Any) -&gt; ()"
+                  moduleName = "ArtBookProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/raman/Desktop/ArtBookProject/ArtBookProject/DetailsVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "1278">
+               </Location>
+               <Location
+                  uuid = "D4EB577F-12F9-4E09-9062-29FB92A5A2EE - 1e35b09f112b28fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ArtBookProject.DetailsVc.saveButtonClicked(Any) -&gt; ()"
+                  moduleName = "ArtBookProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/raman/Desktop/ArtBookProject/ArtBookProject/DetailsVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "1339">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "86A6BDCE-6F1C-4614-A087-DCD7690580F0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ArtBookProject/DetailsVc.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "saveButtonClicked(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "86A6BDCE-6F1C-4614-A087-DCD7690580F0 - 1e35b09f112b2898"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ArtBookProject.DetailsVc.saveButtonClicked(Any) -&gt; ()"
+                  moduleName = "ArtBookProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/raman/Desktop/ArtBookProject/ArtBookProject/DetailsVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "2503">
+               </Location>
+               <Location
+                  uuid = "86A6BDCE-6F1C-4614-A087-DCD7690580F0 - 1e35b09f112b2898"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ArtBookProject.DetailsVc.saveButtonClicked(Any) -&gt; ()"
+                  moduleName = "ArtBookProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/raman/Desktop/ArtBookProject/ArtBookProject/DetailsVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "2625">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B500B150-8E28-48DB-941E-0631316FEA73"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ArtBookProject/DetailsVc.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "saveButtonClicked(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B500B150-8E28-48DB-941E-0631316FEA73 - 1e35b09f112b2f35"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ArtBookProject.DetailsVc.saveButtonClicked(Any) -&gt; ()"
+                  moduleName = "ArtBookProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/raman/Desktop/ArtBookProject/ArtBookProject/DetailsVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "2639">
+               </Location>
+               <Location
+                  uuid = "B500B150-8E28-48DB-941E-0631316FEA73 - 1e35b09f112b2f35"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ArtBookProject.DetailsVc.saveButtonClicked(Any) -&gt; ()"
+                  moduleName = "ArtBookProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/raman/Desktop/ArtBookProject/ArtBookProject/DetailsVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "2761">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B2310A5C-8BF8-49CB-A39E-00162BE6D6A0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ArtBookProject/DetailsVc.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
+            landmarkName = "saveButtonClicked(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B2310A5C-8BF8-49CB-A39E-00162BE6D6A0 - 1e35b09f112b2fb1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ArtBookProject.DetailsVc.saveButtonClicked(Any) -&gt; ()"
+                  moduleName = "ArtBookProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/raman/Desktop/ArtBookProject/ArtBookProject/DetailsVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "3363">
+               </Location>
+               <Location
+                  uuid = "B2310A5C-8BF8-49CB-A39E-00162BE6D6A0 - 1e35b09f112b2fb1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ArtBookProject.DetailsVc.saveButtonClicked(Any) -&gt; ()"
+                  moduleName = "ArtBookProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/raman/Desktop/ArtBookProject/ArtBookProject/DetailsVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "3485">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5237864B-28C0-4BBD-9410-8AB6EC5BD5D0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ArtBookProject/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
